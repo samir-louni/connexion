@@ -1,0 +1,86 @@
+<!doctype html>
+   <html>
+   
+<title>Inscription</title>
+
+<link rel="stylesheet" href="connexion.css">
+
+
+
+
+  <center><div style="width: 300px; padding-top: 30px; padding-bottom: 30px; border: 3px solid #ffffff; text-align: center; background-color: rgb(90, 157, 233);border-radius: 10px;">
+    <img src="https://www.zupimages.net/up/20/40/vmpp.png" width="250" height="100">
+    <form method="post" action="form.php">
+            <label for="pseudo">Login : </label>
+          
+            <input type="text" id="pseudo" required>
+            <br>
+<br>
+            <label for="pass">Mot de passe :</label>
+            <input type="password" id="pass" required><br>
+            <br>
+            <label for="mail">Adresse mail :</label>
+    <input type="email" id="mail" required><br>
+    <br>
+    <label for="datenaissance">Date de naissance :</label>
+          <input type="date" id="datenaissance" required><br>
+          <br>
+          <label for="Nom">Nom : </label>
+            <input type="text" id="Nom" required><br>
+            <br>
+            <label for="prn">Prénom : </label>
+            <input type="text" id="prn" required><br>
+            <br>
+            <form action="">
+            <label for="sexe"> Sexe :</label>
+            
+            
+              <input name="sexe" type="radio" value="Homme" id="Sexe">Homme
+              <input name="sexe" type="radio" value="Femme" id="Sexe">Femme
+              
+
+        
+      </FORM>
+<br>
+      Niveau d'étude : <SELECT name="Niveaudétude" size="1" required>
+          <OPTION>Bac
+          <OPTION>BTS (Bac +2)
+              <OPTION> Licence (Bac + )
+                  <OPTION>Master (Bac +5)
+                      <OPTION>Doctorat (Bac +8)
+                          
+          </SELECT>
+          </FORM>
+           <br>
+           <br>
+          </form>
+          <label for="phone">Telephone : <i>(10 chiffre maximum)</i> </label>
+
+          <input type="tel" id="phone" name="phone"
+          maxlength="10"
+          minlength="10"
+                 pattern="[0-9]"
+                 required>
+
+        <br>
+        <p>Hobbies : </p>
+<p>
+	Les sports extrêmes: <input type="checkbox" name="hobbies"  /><br />
+	Le volontariat: <input type="checkbox" name="hobbies"  /><br />
+	La photographie: <input type="checkbox" name="hobbies"  /><br />
+  Le théâtre: <input type="checkbox" name="hobbies" /><br>
+  Les jeux vidéos: <input type="checkbox" name="hobbies" />
+</p>
+<br>
+        <button onclick="window.location.href = 'connexion.html';">Envoyer</button>
+
+
+
+</div>
+
+
+</center>
+</html>
+
+
+  
